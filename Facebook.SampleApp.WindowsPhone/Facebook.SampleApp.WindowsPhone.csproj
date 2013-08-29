@@ -95,6 +95,7 @@
     </Compile>
     <Compile Include="Bootstrap\AzureMobileAuthNPluginBootstrap.cs" />
     <Compile Include="DebugTrace.cs" />
+    <Compile Include="GlobalVariablesForTesting.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\AppResources.Designer.cs">

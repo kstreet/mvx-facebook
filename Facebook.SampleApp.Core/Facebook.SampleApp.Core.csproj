@@ -53,7 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ToDo-MvvmCross\_ Core.txt" />
+    <ProjectReference Include="..\BeingTheWorst.MvxPlugins.Facebook\BeingTheWorst.MvxPlugins.Facebook.csproj">
+      <Project>{a1c21277-272c-40e2-98ed-17b2142b45c7}</Project>
+      <Name>BeingTheWorst.MvxPlugins.Facebook</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
